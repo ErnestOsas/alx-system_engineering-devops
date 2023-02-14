@@ -1,2 +1,1 @@
 #!/bin/bash
-echo "$(set | grep -v 'BASH_EXECUTION_STRING' | grep -v 'BASH_LINENO' | grep -v 'BASH_SOURCE' | grep -v 'FUNCNAME' | grep -v 'BASH_COMMAND')"
